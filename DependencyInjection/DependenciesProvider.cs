@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
 
+// This code was made by following a tutorial on Dependency Injection at https://moderncsharpinunity.github.io/post/dependency-injection-on-unity/
+
 public class DependenciesProvider
 {
 	private Dictionary<Type, Dependency> dependencies = new Dictionary<Type, Dependency>();

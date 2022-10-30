@@ -6,6 +6,8 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.Serialization;
 
+// This code was made by following a tutorial on Dependency Injection at https://moderncsharpinunity.github.io/post/dependency-injection-on-unity/
+
 public struct Dependency
 {
 	public Type Type { get; set; }

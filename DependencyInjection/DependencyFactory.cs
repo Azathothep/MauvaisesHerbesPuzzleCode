@@ -3,6 +3,8 @@ using System.Runtime.Serialization;
 using UnityEngine;
 using System;
 
+// This code was made by following a tutorial on Dependency Injection at https://moderncsharpinunity.github.io/post/dependency-injection-on-unity/
+
 public static class DependencyFactory
 {
 	public delegate object Delegate(DependenciesProvider dependencies);

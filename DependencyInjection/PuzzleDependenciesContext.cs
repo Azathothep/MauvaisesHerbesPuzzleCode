@@ -5,6 +5,8 @@ using System;
 using MHPuzzle.Elements;
 using MHPuzzle.Objects;
 
+// This code was made by following a tutorial on Dependency Injection at https://moderncsharpinunity.github.io/post/dependency-injection-on-unity/
+
 namespace MHPuzzles
 {
 	public class PuzzleDependenciesContext : DependenciesContext
